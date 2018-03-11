@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+	<head>
+
+		<!-- This sets the language that your characters are in -->
+		<meta charset="utf-8">
+		<!-- This ensures that your media queries work -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<!-- This is what appears in the tab of your browser page -->
+		<title>Wk5 in-class Exercise</title>
+
+		<!-- BOOTSTRAP: This makes the bootstrap css work -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+		<!-- CUSTOM CSS: This connects my CSS external stylesheet to the index.html -->
+		<link rel="stylesheet" href="css/main.css">
+	</head>
+	
+	<body>
+		<!-- NAVBAR -->
+		<nav class="navbar navbar-expand-sm navbar-light">
+			<div class="container">
+	  			<a class="navbar-brand" href="https://getbootstrap.com/docs/4.0/components/navbar/">Navbar</a>
+	  			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+	    			<span class="navbar-toggler-icon"></span>
+	  			</button>
+			  <div class="collapse navbar-collapse" id="navbarNav">
+			    <ul class="navbar-nav ml-auto">
+			      <li class="nav-item active">
+			        <a class="nav-link" href="https://getbootstrap.com/docs/4.0/components/dropdowns/">Dropdowns <span class="sr-only">(current)</span></a>
+			      </li>
+			      <li class="nav-item">
+			        <a class="nav-link" href="https://getbootstrap.com/docs/4.0/components/jumbotron/">Jumbotron</a>
+			      </li>
+			      <li class="nav-item">
+			        <a class="nav-link" href="https://getbootstrap.com/docs/4.0/components/modal/">Modal</a>
+			      </li>
+			      <li class="nav-item">
+			        <a class="nav-link" href="https://getbootstrap.com/docs/4.0/components/carousel/">Carousel</a>
+			      </li>
+			    </ul>
+			  </div>
+			 </div>
+		</nav>
+
+		<!-- JUMBOTRON -->
+		<div class="jumbotron text-center text-md-right text-white bg-dark">
+			<div class="container px-md-5">
+	  			<h1 class="display-4">Reasons to Use Bootstrap</h1>
+	  				<h2>Easy to Use
+	  					<p class="lead">It is extremely an easy and speedy procedure to begin with Bootstrap. Bootstrap is very adaptable too.  You can utilize Bootstrap along with CSS, or LESS, or also with Sass [after you download the Sass version].</p>
+	  				</h2>
+	  				<h2>Responsivenes
+	  					<p class="lead">Every year mobile devices persist to grow hugely popular, and the requirement to have a responsive website has become compulsory and important too. As the fluid grid layout amends vigorously to the appropriate screen resolution, thus crafting a mobile-ready site is a smooth and easy task along with Bootstrap. With the use of ready-made classes of Bootstrap, you can recognize the number of spots in the grid system that you would like each column to engage in. Then only you can identify at whichever point you would like your columns to load in horizontal position, instead of vertically to exhibit accurately on mobile appliances.</p>
+	  				</h2>
+	  			<hr class="my-4">
+	  			<p>Find the complete article by clicking the blue button below</p>
+	  			<p class="lead">
+	   	 			<a class="btn btn-primary btn-lg" href="https://www.devsaran.com/blog/10-best-reasons-use-bootstrap-amazing-web-designs" role="button">Learn more</a>
+	  			</p>
+	  		</div>
+		</div>
+
+		<!-- BOOTSTRAP container -->
+		<div class="container-fluid">
+			<div class="row text-center pb-5">
+				<div class="col-10 col-sm-8 col-md-4 col-lg-3 mx-auto mx-md-0 ml-md-auto p-3">
+					<h2>Design Map</h2>
+					<img class="img-fluid" src="img/DesignMapLogo.png">
+					<a href="https://www.designmap.com/" target="_blank"><button class="btn btn-danger my-5">Learn More</button></a>
+				</div>
+				<div class="col-10 col-sm-8 col-md-4 col-lg-3 mx-auto mx-md-0 ml-md-auto p-3">
+					<h2>Vonnda</h2>
+					<img class="img-fluid" src="img/VonndaLogo.png">
+					<a href="https://www.vonnda.com/" target="_blank"><button type="button" class="btn btn-info my-5">Learn More</button></a>
+				</div>
+				<div class="col-10 col-sm-8 col-md-4 col-lg-3 mx-auto mx-md-0 ml-md-auto p-3">
+					<h2>Reddit</h2>
+					<img class="img-fluid" src="img/RedditLogo.png">
+					<a href="https://about.reddit.com/" target="_blank"><button type="button" class="btn btn-success my-5">Learn More</button></a>
+				</div>
+			</div>
+		</div>
+
+				
+		<!-- jQuery: This gives access to the jquery library -->
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+
+		<!-- POPPER: Popper is required for bootstrap 4 JS functionality -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+
+		<!-- BOOTSTRAP: This makes bootstrap 4 JS work -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+		<!-- This connects my JS external file to the index.html -->
+		 <script src="js/main.js" type="text/javascript"></script>
+	
+	</body>
+</html>
